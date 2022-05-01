@@ -1,0 +1,21 @@
+.toggleButton {
+    border-radius: 8px;
+    background-color: white;
+    width: 100px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 30px 5px 0 5px;
+    border: none;
+}
+
+.toggleButton.selected {
+    background-color: blueviolet;
+    color: white;
+}
+
+.toggleButton:hover {
+    cursor: pointer;
+}
